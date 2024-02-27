@@ -1,3 +1,7 @@
-#!/usr/bin/env python3
 
-wrong_type = 'abc' + 123
+
+# Convert the integer to a string before concatenating
+correct_type = 'abc' + str(123)
+
+# Print the result
+print(correct_type)
